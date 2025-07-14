@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://www.svgrepo.com/show/535376/eye-slash.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Videntia</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.10.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCEPf0xJp9uHollITiVdJVw16ejfcmG9Wk",
+      authDomain: "videntia-999.firebaseapp.com",
+      projectId: "videntia-999",
+      storageBucket: "videntia-999.firebasestorage.app",
+      messagingSenderId: "189282792843",
+      appId: "1:189282792843:web:16d1396fa0df059320ab8e",
+      measurementId: "G-K2DKSFZY3E"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+
+</html>
